@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="referrer" content="no-referrer">
+<title>Social Dash</title>
+<script>
+  // TikTok does not allow localhost redirect URIs, so TikTok redirects here and
+  // this page forwards the OAuth response to the owner's local dashboard.
+  // The target is fixed: this page never forwards anywhere else.
+  location.replace("https://localhost:3000/api/auth/tiktok/callback" + location.search);
+</script>
+</head>
+<body style="font-family: -apple-system, system-ui, sans-serif; background: #fff; color: #222; padding: 16px;">
+<p>Returning to Social Dash… If nothing happens, make sure the dashboard is running at https://localhost:3000.</p>
+</body>
+</html>
