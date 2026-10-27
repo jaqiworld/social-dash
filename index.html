@@ -15,21 +15,27 @@
 <h1>Social Dash</h1>
 <p class="muted">A personal analytics dashboard.</p>
 
-<p>Social Dash is a private, single-user tool that runs on its owner's own computer. It reads the owner's YouTube, Instagram, and TikTok analytics so they can be viewed in one place. It is not offered to the public.</p>
+<p>Social Dash is a private, single-user tool. It reads its owner's YouTube, Instagram, and TikTok analytics so they can be viewed in one place. It runs on the owner's own Cloudflare account, and only the owner can sign in to it. It is not offered to the public.</p>
 
 <h2 id="privacy">Privacy Policy</h2>
-<p class="muted">Last updated: October 26, 2026</p>
+<p class="muted">Last updated: October 27, 2026</p>
 <ul>
-  <li><strong>What is accessed:</strong> read-only channel/account statistics and analytics (for example views, followers, likes, and comments) for the owner's own accounts, through the official YouTube, Instagram, and TikTok APIs.</li>
-  <li><strong>How it is used:</strong> only to display charts and summaries to the owner.</li>
-  <li><strong>Storage:</strong> data and access tokens are stored locally on the owner's computer. Tokens are encrypted. Nothing is uploaded to any other server.</li>
+  <li><strong>What is accessed:</strong> read-only data about the owner's own accounts, through the official YouTube, Instagram, and TikTok APIs. This covers account and post statistics and analytics (for example views, followers, likes, reach, and watch time) and aggregated audience reports (for example age ranges, countries, and traffic sources). It also covers public comments on the owner's own posts (the commenter's username and the comment text), and the names of YouTube subscribers who have made their subscriptions public.</li>
+  <li><strong>How it is used:</strong> only to show charts, summaries, and lists to the owner.</li>
+  <li><strong>Storage:</strong> data is stored in a private database on the owner's Cloudflare account. Access tokens are encrypted. Only the owner can sign in to the dashboard.</li>
   <li><strong>Sharing:</strong> no data is sold, shared, or transferred to third parties.</li>
-  <li><strong>Revoking access:</strong> access can be revoked at any time from Google Account permissions (myaccount.google.com/permissions), Instagram's Apps and Websites settings, or TikTok's Manage app permissions. Deleting the local database removes all stored data.</li>
+  <li><strong>Revoking access:</strong> access can be revoked at any time from Google Account permissions (myaccount.google.com/permissions), Instagram's Apps and Websites settings, or TikTok's Manage app permissions.</li>
   <li><strong>Google API data:</strong> Social Dash's use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</li>
 </ul>
 
+<h2 id="data-deletion">Data Deletion</h2>
+<ul>
+  <li><strong>Account data:</strong> disconnecting an account in the dashboard's Settings deletes its stored login and all data synced from it.</li>
+  <li><strong>Your comments or subscription:</strong> if you commented on the owner's posts or subscribed to the owner's channel and want that information deleted, email <a href="mailto:get@jaqiworld.com">get@jaqiworld.com</a> with your username. It will be deleted within 30 days.</li>
+</ul>
+
 <h2 id="terms">Terms of Service</h2>
-<p class="muted">Last updated: October 26, 2026</p>
+<p class="muted">Last updated: October 27, 2026</p>
 <ul>
   <li><strong>Who may use it:</strong> Social Dash is operated by and for its owner only. No accounts are offered to the public.</li>
   <li><strong>Platform terms:</strong> use of data from YouTube, Instagram, and TikTok is subject to each platform's own terms, including the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>.</li>
@@ -38,6 +44,6 @@
 </ul>
 
 <h2>Contact</h2>
-<p>Questions: open an issue on this site's GitHub repository.</p>
+<p>Questions: email <a href="mailto:get@jaqiworld.com">get@jaqiworld.com</a>, or open an issue on this site's GitHub repository.</p>
 </body>
 </html>
